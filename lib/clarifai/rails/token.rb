@@ -17,7 +17,7 @@ module Clarifai
           client_id: Clarifai::Rails.client_id,
           client_secret: Clarifai::Rails.client_secret
         }
-        token_uri = URI("https://api.clarifai.com/v1/token")
+        token_uri = URI("https://api.clarifai.com/v2/token")
 
         https = Net::HTTP.new(token_uri.host, token_uri.port)
         https.use_ssl = true

@@ -14,7 +14,7 @@ module Clarifai
 
     @@client_id = nil
     @@client_secret = nil
-    @@tag_url = "https://api.clarifai.com/v1/tag"
+    @@tag_url = "https://api.clarifai.com/v2/tag"
 
   end
 end
